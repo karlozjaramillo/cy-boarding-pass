@@ -18,12 +18,14 @@
         table {
             border-spacing: 0;
         }
+
+        .linea { width: 100%; height: 2px; background-color: black; position: relative; margin-top: 20px; } .rectangulo { width: 50%; height: 30px; background-color: lightblue; position: absolute; top: -15px; /* Ajusta la posición del rectángulo */ left: 25%; /* Centra el rectángulo horizontalmente */ display: flex; justify-content: center; align-items: center; border: 1px solid black; }
     </style>
 </head>
 <body>
     <table style="width: 420px; background-color: rgb(230, 230, 230); padding: 24px; font-family: 'PF Centro Sans Pro';">
         <tbody>
-            <tr style="width: 370px; background-color: yellow;">
+            <tr style="width: 370px;">
                 <td>
                     <!-- Header -->
                     <table style="width: 100%; margin-bottom: 4px;">
@@ -93,6 +95,7 @@
                         <tbody>
                             <tr style="vertical-align: bottom;">
                                 <td style="width: 20%;">
+                                    <!-- Departure -->
                                     <table>
                                         <tbody>
                                             <tr>
@@ -113,10 +116,26 @@
                                         </tbody>
                                     </table>
                                 </td>
-                                <td style="width: 60%;">
-
+                                <td style="width: 60%; vertical-align: middle; justify-items: center;">
+                                    <!-- Class -->
+                                    <table style="width: 80%;">
+                                        <tbody>
+                                            <tr style="height: 1px; background-color: #A7A7A7; position: relative; margin-top: 20px;">
+                                                <td style="padding: 2px 8px; background-color: #007266; position: absolute; top: -5px; left: 34%; border-radius: 2px;">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="font-size: 6px; text-align: center; color: #fff;"><span>Basic - Economy</span></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </td>
                                 <td style="width: 20%; justify-items: end; text-align: right;">
+                                    <!-- Arrival -->
                                     <table>
                                         <tbody>
                                             <tr>
@@ -146,6 +165,64 @@
                                         </tbody>
                                     </table>
                                 </td>                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-top: 6px;">
+                    <table style="width: 100%;">
+                        <tbody style="vertical-align: top;">
+                            <tr>
+                                <td style="width: 25%; border-radius: 4px; padding: 0 5px 0 0;">
+                                    <table style="width: 100%; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="vertical-align:top; height: 23px; padding-bottom: 10px; font-size: 10px; font-weight: 500; line-height: 11px; color: #444444;"><span>SEAT:</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 22px; font-weight: 600; line-height: 12px; color: #EF4A81;"><span>23C</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td style="width: 25%; border-radius: 4px; padding: 0 4px 0 1px;">
+                                    <table style="width: 100%; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="vertical-align:top; height: 23px; padding-bottom: 10px; font-size: 10px; font-weight: 500; line-height: 11px; color: #444444;"><span>GATE:</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 22px; font-weight: 600; line-height: 12px; color: #A7A7A7;"><span>TBA</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td style="width: 25%; border-radius: 4px; padding: 0 3px 0 2px;">
+                                    <table style="width: 100%; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="vertical-align:top; height: 23px; padding-bottom: 10px; font-size: 10px; font-weight: 500; line-height: 11px; color: #444444;"><span>BOARDING TIME:</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 22px; font-weight: 600; line-height: 12px; color: #EF4A81;"><span>17:40</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td style="width: 25%; border-radius: 4px;padding: 0 0 0 3px;">
+                                    <table style="width: 100%; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="vertical-align:top; height: 23px; padding-bottom: 10px; font-size: 10px; font-weight: 500; line-height: 11px; color: #444444;"><span>GATE<br>CLOSED:</span></brCLOSED:<>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-size: 22px; font-weight: 600; line-height: 12px; color: #EF4A81;"><span>18:10</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
