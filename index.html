@@ -19,8 +19,14 @@
             border-spacing: 0;
         }
         @media print {
-            .header-website {
+            .background-green {
                 background-color: #007266;
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+            .background-gray {
+                background-color: #F8F8F8;
+                print-color-adjust: exact;
                 -webkit-print-color-adjust: exact;
             }
         }
@@ -78,7 +84,7 @@
             <!-- Website -->
             <tr>
                 <td>
-                    <table class="header-website"
+                    <table class="background-green"
                         style="width: 100%; background-color: #007266; border-radius: 2px; color: #fff; font-size: 7px; font-weight: 500; padding: 3px 8px;">
                         <tbody>
                             <tr>
@@ -112,7 +118,7 @@
             <!-- Booking info -->
             <tr>
                 <td>
-                    <table style="width: 100%; background-color: #F8F8F8; border-radius: 4px; padding: 12px;">
+                    <table class="background-gray" style="width: 100%; background-color: #F8F8F8; border-radius: 4px; padding: 12px;">
                         <tbody>
                             <tr style="vertical-align: bottom;">
                                 <!-- Departure -->
@@ -162,7 +168,7 @@
                                         <tbody>
                                             <tr
                                                 style="height: 1px; background-color: #A7A7A7; position: relative; margin-top: 20px;">
-                                                <td
+                                                <td class="background-green"
                                                     style="padding: 2px 8px; background-color: #007266; position: absolute; top: -5px; left: 34%; border-radius: 2px;">
                                                     <table>
                                                         <tbody>
@@ -249,7 +255,7 @@
                             <tr>
                                 <!-- seat -->
                                 <td style="width: 25%; border-radius: 4px; padding: 0 5px 0 0;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -271,7 +277,7 @@
                                 </td>
                                 <!-- gate -->
                                 <td style="width: 25%; border-radius: 4px; padding: 0 4px 0 1px;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -298,7 +304,7 @@
                                 </td>
                                 <!-- boarding time -->
                                 <td style="width: 25%; border-radius: 4px; padding: 0 3px 0 2px;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -320,7 +326,7 @@
                                 </td>
                                 <!-- gate closed -->
                                 <td style="width: 25%; border-radius: 4px;padding: 0 0 0 3px;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -352,7 +358,7 @@
                             <tr>
                                 <!-- booked class -->
                                 <td style="width: 25%; border-radius: 4px; padding: 0 5px 0 0;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -372,7 +378,7 @@
                                 </td>
                                 <!-- baggage allowance -->
                                 <td style="width: 25%; border-radius: 4px; padding: 0 4px 0 1px;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -400,7 +406,7 @@
                                 </td>
                                 <!-- baggage -->
                                 <td style="width: 25%; border-radius: 4px; padding: 0 3px 0 2px;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -431,7 +437,7 @@
                                 </td>
                                 <!-- baggage -->
                                 <td style="width: 25%; border-radius: 4px;padding: 0 0 0 3px;">
-                                    <table
+                                    <table class="background-gray"
                                         style="width: 100%; height: 80px; background-color: #F8F8F8; border-radius: 4px; padding: 10px 8px;">
                                         <tbody>
                                             <!-- label -->
@@ -470,7 +476,7 @@
                                             <tr>
                                                 <!-- icon -->
                                                 <td>
-                                                    <table
+                                                    <table class="background-gray"
                                                         style="background-color: #F8F8F8; padding: 0 2px; border-radius: 4px; height: 20px; line-height: 13px;">
                                                         <tbody>
                                                             <tr>
@@ -513,7 +519,7 @@
                                             <tr>
                                                 <!-- icon -->
                                                 <td>
-                                                    <table
+                                                    <table class="background-gray"
                                                         style="background-color: #F8F8F8; padding: 0 2px; border-radius: 4px; height: 20px; line-height: 13px;">
                                                         <tbody>
                                                             <tr>
@@ -556,7 +562,7 @@
                                             <tr>
                                                 <!-- icon -->
                                                 <td>
-                                                    <table
+                                                    <table class="background-gray"
                                                         style="background-color: #F8F8F8; padding: 0 2px; border-radius: 4px; height: 20px; line-height: 13px;">
                                                         <tbody>
                                                             <tr>
@@ -600,7 +606,7 @@
                                             <tr>
                                                 <!-- icon -->
                                                 <td>
-                                                    <table
+                                                    <table class="background-gray"
                                                         style="background-color: #F8F8F8; padding: 0 2px; border-radius: 4px; height: 20px; line-height: 13px;">
                                                         <tbody>
                                                             <tr>
@@ -643,7 +649,7 @@
                                             <tr>
                                                 <!-- icon -->
                                                 <td>
-                                                    <table
+                                                    <table class="background-gray"
                                                         style="background-color: #F8F8F8; padding: 0 2px; border-radius: 4px; height: 20px; line-height: 13px;">
                                                         <tbody>
                                                             <tr>
