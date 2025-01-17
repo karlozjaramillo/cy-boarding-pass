@@ -18,6 +18,12 @@
         table {
             border-spacing: 0;
         }
+        @media print {
+            .header-website {
+                background-color: #007266;
+                -webkit-print-color-adjust: exact;
+            }
+        }
     </style>
 </head>
 
@@ -72,7 +78,7 @@
             <!-- Website -->
             <tr>
                 <td>
-                    <table
+                    <table class="header-website"
                         style="width: 100%; background-color: #007266; border-radius: 2px; color: #fff; font-size: 7px; font-weight: 500; padding: 3px 8px;">
                         <tbody>
                             <tr>
